@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "elasticsearch": {
+      "command": "/Users/takenaka/Library/CloudStorage/OneDrive-プライマルホールディングス株式会社/PassageDrive/Workspace/Documents/vibe coding/run_es_mcp.sh",
+      "env": {
+        "ES_MCP_DEBUG": "true"
+      }
+    }
+  }
+}

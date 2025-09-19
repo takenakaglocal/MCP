@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/takenaka/Library/Caches/claude-cli-nodejs/-Users-takenaka-Library-CloudStorage-OneDrive----------------------PassageDrive-Workspace-Documents-vibe-coding/mcp-logs-elasticsearch/**)",
+      "Read(//Users/takenaka/**)",
+      "Bash(pkill:*)",
+      "Bash(python:*)",
+      "Bash(pip3 install:*)",
+      "Bash(source:*)",
+      "Bash(pip install:*)",
+      "Bash(venv/bin/python:*)",
+      "Bash(./run_es_mcp.sh:*)",
+      "Bash(claude:*)",
+      "WebSearch"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "elasticsearch"
+  ]
+}

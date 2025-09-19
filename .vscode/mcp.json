@@ -1,0 +1,20 @@
+{
+  "servers": {
+    "elasticsearch": {
+      "command": "${workspaceFolder}/venv/bin/python",
+      "args": ["mcp_elasticsearch.py"],
+      "env": {
+        "ES_ENDPOINT": "${env:ES_ENDPOINT}",
+        "ES_USERNAME": "${env:ES_USERNAME}",
+        "ES_PASSWORD": "${env:ES_PASSWORD}",
+        "ES_API_KEY": "${env:ES_API_KEY}",
+        "ES_TLS_REJECT_UNAUTHORIZED": "${env:ES_TLS_REJECT_UNAUTHORIZED}",
+        "ES_MAX_SEARCH_SIZE": "${env:ES_MAX_SEARCH_SIZE}",
+        "ES_REQUIRE_TIME_RANGE": "${env:ES_REQUIRE_TIME_RANGE}",
+        "ES_DEFAULT_LOOKBACK": "${env:ES_DEFAULT_LOOKBACK}",
+        "ES_ALLOWED_INDEX_PATTERNS": "${env:ES_ALLOWED_INDEX_PATTERNS}",
+        "ES_VERBOSE": "${env:ES_VERBOSE}"
+      }
+    }
+  }
+}
